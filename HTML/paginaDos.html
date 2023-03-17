@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="Pagina2.css">
+
+    <title>Rectángulo</title>
+	<style>
+		.rectangulo {
+			position: absolute;
+            width: 1717px;
+            height: 25px;
+            left: -12px;
+            top: 300px;
+			background-color: #222651;
+			border: 2px solid black;
+		}
+	</style>
+
+    <title>Cuadro con imagen 1</title>
+    <style>
+        .cuadro1 {
+            position: absolute;
+            width: 100px;
+            height: 70px;
+            left: 200px;
+            top: 425px;
+            border: 2px solid black;
+            text-align: center;
+        }
+        .cuadro1 img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+
+    <title>Cuadro con imagen 2</title>
+    <style>
+        .cuadro2 {
+            position: absolute;
+            width: 100px;
+            height: 70px;
+            left: 200px;
+            top: 525px;
+            border: 2px solid black;
+            text-align: center;
+        }
+        .cuadro2 img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+
+    <title>Cuadro con imagen 3</title>
+    <style>
+        .cuadro3 {
+            position: absolute;
+            width: 100px;
+            height: 70px;
+            left: 200px;
+            top: 625px;
+            border: 2px solid black;
+            text-align: center;
+        }
+        .cuadro3 img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+
+    <title>Cuadro con imagen 4</title>
+    <style>
+        .cuadro4 {
+            position: absolute;
+            width: 100px;
+            height: 70px;
+            left: 200px;
+            top: 725px;
+            border: 2px solid black;
+            text-align: center;
+        }
+        .cuadro4 img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+
+<title>Cuadro con imagen 5</title>
+<style>
+    .cuadro5 {
+        position: absolute;
+        width: 125px;
+        height: 100px;
+        left: 100px;
+        top: 75px;
+        border: 2px solid black;
+        text-align: center;
+    }
+    .cuadro5 img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+</style>
+    
+</head>
+
+<body>
+    <p1><span class="libros">Libros:</span> <br> Romance <br> Accion <br> comedia </p1>
+    <p2><span class="series">Serie:</span> <br> Romance <br> Accion <br> comedia </p2>
+    <p3><span class="peliculas">Peliculas:</span> <br> Romance <br> Accion <br> comedia </p3>
+    <p4><span class="anime">Anime:</span> <br> Romance <br> Accion <br> comedia </p4>
+
+    <input type="text" class="Busqueda">
+    <button type="submit" class="Buscar-btn">Buscar</button>
+    <button type="submit" class="NuevoTema-btn">Nuevo Tema</button>
+
+    <label for="Filtrar" class="label-filtrar">Filtrar por:</label>
+    <input type="text" id="Filtrar" name="Filtrar" class="campo-filtrar">
+
+    
+    <div class="rectangulo"></div>
+
+    <div class="cuadro1">
+		<img src="ruta_de_la_imagen" alt="Imagen de usuario">
+	</div>
+
+    <div class="cuadro2">
+		<img src="ruta_de_la_imagen" alt="Imagen de usuario">
+	</div>
+
+    <div class="cuadro3">
+		<img src="ruta_de_la_imagen" alt="Imagen de usuario">
+	</div>
+
+    <div class="cuadro4">
+		<img src="ruta_de_la_imagen" alt="Imagen de usuario">
+	</div>
+
+    <div class="cuadro5">
+		<img src="C:\Users\gatov\OneDrive\Documentos\HTML\imagenRetro.png" alt="Logo">
+	</div>
+
+    <button type="submit" id="miboton" class="Agregar1-btn" onclick="redireccionar()">Agregar comentario</button>
+    <button type="submit" id="miboton" class="Agregar2-btn" onclick="redireccionar()">Agregar comentario</button>
+    <button type="submit" id="miboton" class="Agregar3-btn" onclick="redireccionar()">Agregar comentario</button>
+    <button type="submit" id="miboton" class="Agregar4-btn" onclick="redireccionar()">Agregar comentario</button>
+
+        <script>
+          function redireccionar() {
+            location.href = "file:///C:/Users/gatov/OneDrive/Documentos/HTML/paginaTres.html";
+          }
+          </script>
+
+    <input type="text" class="Titulo1" placeholder="Título">
+    <input type="text" class="Titulo2" placeholder="Título">
+    <input type="text" class="Titulo3" placeholder="Título">
+    <input type="text" class="Titulo4" placeholder="Título">
+
+    <input type="text" class="Descripcion1" placeholder="Aca una breve muestra de la publicacion">
+    <input type="text" class="Descripcion2" placeholder="Aca una breve muestra de la publicacion">
+    <input type="text" class="Descripcion3" placeholder="Aca una breve muestra de la publicacion">
+    <input type="text" class="Descripcion4" placeholder="Aca una breve muestra de la publicacion">
+
+    <a href="file:///C:/Users/gatov/OneDrive/Documentos/HTML/login.html" class="ACCEDER">ACCEDER</a>
+    <button class="exit-btn"><i class="fas fa-times"></i></button>
+    <button class="refresh-btn"><i class="fas fa-sync-alt"></i></button>
+
+</body>
+
+</html>

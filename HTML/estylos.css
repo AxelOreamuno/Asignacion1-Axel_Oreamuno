@@ -1,0 +1,197 @@
+.contenido {
+    box-sizing: border-box;
+
+    position: fixed;
+    width: 50px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+
+    /*background: url("C:\Users\gatov\OneDrive\Documentos\HTML\DESING A MOVIE POSTER WITH ALIENS FALLING FROM SKY.jpg");*/
+}
+
+.contenido img {
+    border: 1px solid black; /* estilo del borde de la imagen */
+    border-radius: 5px; /* estilo del borde redondeado de la imagen */
+    box-sizing: border-box;
+
+    position: fixed;
+    width: 610px;
+    height: 746px;
+    left: 0px;
+    top: 0px;
+    
+}
+.user{
+    box-sizing: border-box;
+
+    position: fixed;
+    width: 50px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+}
+
+.user img {
+    border-radius: 5px; /* estilo del borde redondeado de la imagen */
+    
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    left: 900px;
+    top: 250px;
+    
+}
+.candado{
+    box-sizing: border-box;
+
+    position: fixed;
+    width: 50px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+}
+
+.candado img {
+    border-radius: 5px; /* estilo del borde redondeado de la imagen */
+    
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    left: 900px;
+    top: 350px;
+    
+}
+.texto {
+    border: 2px dashed rgb(237, 237, 240);
+    border-radius: 10px;
+     
+
+    position: relative;
+    text-align: center;
+    top: 50px;  /*arriba*/
+    width: 600px; /*ancho*/
+    height: 300x; /*altura*/
+    left: 750px; /*izquierda*/
+    background: rgb(83, 188, 188);
+
+}
+.campo-olvido {
+    
+    position: relative;
+    text-align: center;
+    top: 300px;  /*arriba*/
+    width: 600px; /*ancho*/
+    height: 300x; /*altura*/
+    left: 750px; /*izquierda*/
+    
+
+}
+.campo-texto {
+    position: fixed;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 50px;
+    left: 970px;
+    top: 260px;
+}
+  
+.campo-texto label {
+    position: fixed;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    left: 830px;
+    top: 250px;
+    color: #ffffff;
+    
+}
+  
+.campo-texto input {
+    width: 200px;
+    left: 830px; /*izquierda*/
+    padding: 10px 0; /*Relleno*/
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+}
+  
+.campo-texto input:focus,
+.campo-texto input:valid {
+  border-bottom: 3px solid #007bff;
+}
+
+.campo-texto input:focus ~ label,
+.campo-texto input:valid ~ label {
+  top: 250px;
+  left: 830px;
+  font-size: 17px;
+  color: #007bff;
+} 
+
+.campo-candado {
+    position: fixed;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 50px;
+    left: 970px;
+    top: 360px;
+}
+  
+.campo-candado label {
+    position: fixed;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    left: 830px;
+    top: 350px;
+    color: #ffffff;
+    
+}
+  
+.campo-candado input {
+    width: 200px;
+    left: 830px; /*izquierda*/
+    padding: 10px 0; /*Relleno*/
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+}
+  
+.campo-candado input:focus,
+.campo-candado input:valid {
+  border-bottom: 3px solid #007bff;
+}
+
+.campo-candado input:focus ~ label,
+.campo-candado input:valid ~ label {
+  top: 350px;
+  left: 830px;
+  font-size: 17px;
+  color: #007bff;
+} 
+
+.miBoton {
+
+
+    background-color: #0e5e94; /* Color de fondo */
+    color: white; /* Color de texto */
+    padding: 10px 20px; /* Espacio entre texto y bordes */
+    border: none; /* Sin borde */
+    border-radius: 40px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor cuando el usuario pasa el ratón sobre el*/
+
+    
+}
+
+.miBoton{
+    position: relative;
+    text-align: center;
+    top: 350px;  /*arriba*/
+    width: 200px; /*ancho*/
+    height: 200x; /*altura*/
+    left: 950px; /*izquierda*/
+}
+  

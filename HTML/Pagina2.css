@@ -1,0 +1,297 @@
+body {
+    background-color: #CCE9F3;
+  }
+
+.series {
+    color: #00A3FF;
+  }
+
+.libros {
+    color: #00A3FF;
+  }
+
+  .anime {
+    color: #00A3FF;
+  }
+
+.peliculas {
+    color: #00A3FF;
+  }
+
+  p1{
+    position: absolute;
+    width: 816px;
+    height: 404px;
+    left: 225px;
+    top: 53px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  p2{
+    position: absolute;
+    width: 816px;
+    height: 404px;
+    left: 400px;
+    top: 53px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    
+}
+
+  p3{
+    position: absolute;
+    width: 588px;
+    height: 376px;
+    left: 690px;
+    top: 53px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  p4{
+    position: absolute;
+    width: 588px;
+    height: 376px;
+    left: 850px;
+    top: 53px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .Busqueda{
+    position: absolute;
+    width: 300px;
+    height: 25px;
+    left: 330px;
+    top: 250px;
+  }
+
+  .Buscar-btn{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 700px;
+    top: 250px;
+
+    background: #217EEB;
+    color: white;
+    border-radius: 100px;
+  }
+
+  .NuevoTema-btn{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 985px;
+    top: 250px;
+
+    background: #217EEB;
+    color: white;
+    border-radius: 100px;
+    font-size: 15px;
+  }
+
+.label-filtrar{
+  position: absolute;
+width: 150px;
+height: 30px;
+left: 300px;
+top: 350px;
+font-size: 22px;
+}
+
+.campo-filtrar{
+  position: absolute;
+  width: 300px;
+  height: 25px;
+  left: 400px;
+  top: 350px;
+}
+
+.Agregar1-btn{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 1400px;
+  top: 435px;
+
+  background: #00A3FF;
+  color: white;
+  border-radius: 100px;
+  font-size: 15px;
+}
+
+.Agregar2-btn{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 1400px;
+  top: 535px;
+
+  background: #00A3FF;
+  color: white;
+  border-radius: 100px;
+  font-size: 15px;
+}
+
+.Agregar3-btn{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 1400px;
+  top: 635px;
+
+  background: #00A3FF;
+  color: white;
+  border-radius: 100px;
+  font-size: 15px;
+}
+
+.Agregar4-btn{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 1400px;
+  top: 735px;
+
+  background: #00A3FF;
+  color: white;
+  border-radius: 100px;
+  font-size: 15px;
+}
+
+.Titulo1{
+  position: absolute;
+  width: 800px;
+  height: 25px;
+  left: 430px;
+  top: 425px;
+}
+
+.Titulo2{
+  position: absolute;
+  width: 800px;
+  height: 25px;
+  left: 430px;
+  top: 525px;
+}
+
+.Titulo3{
+  position: absolute;
+  width: 800px;
+  height: 25px;
+  left: 430px;
+  top: 625px;
+}
+
+.Titulo4{
+  position: absolute;
+  width: 800px;
+  height: 25px;
+  left: 430px;
+  top: 725px;
+}
+
+.Descripcion1{
+  position: absolute;
+  width: 800px;
+  height: 25px;
+  left: 430px;
+  top: 455px;
+}
+
+.Descripcion2{
+  position: absolute;
+  width: 800px;
+  height: 25px;
+  left: 430px;
+  top: 555px;
+}
+
+.Descripcion3{
+  position: absolute;
+  width: 800px;
+  height: 25px;
+  left: 430px;
+  top: 655px;
+}
+
+.Descripcion4{
+  position: absolute;
+  width: 800px;
+  height: 25px;
+  left: 430px;
+  top: 755px;
+}
+
+.ACCEDER{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 1400px;
+  top: 230px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 77px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.exit-btn {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1650px;
+  top: 25px;
+
+  background-color: #d9534f;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.exit-btn:hover {
+  background-color: #c9302c;
+}
+
+.refresh-btn {
+  background-color: #CCE9F3;;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.refresh-btn:hover {
+  background-color: whitesmoke;
+}
